@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/NgStoreBoy-React.js/static/css/main.dee5c431.css",
+    "main.js": "/NgStoreBoy-React.js/static/js/main.a0c18da5.js",
+    "static/js/787.a2617a75.chunk.js": "/NgStoreBoy-React.js/static/js/787.a2617a75.chunk.js",
+    "static/media/image5.PNG": "/NgStoreBoy-React.js/static/media/image5.b797bf30355586e09771.PNG",
+    "static/media/shopping-bag.svg": "/NgStoreBoy-React.js/static/media/shopping-bag.b7de19ad0835543a03ffd5aaeb2c5097.svg",
+    "static/media/twitter.svg": "/NgStoreBoy-React.js/static/media/twitter.a44382a763934310c5a4c38dc733a064.svg",
+    "static/media/twitter2.svg": "/NgStoreBoy-React.js/static/media/twitter2.70637fe52e43be0ceb38b86c5bfe0c27.svg",
+    "static/media/apple.svg": "/NgStoreBoy-React.js/static/media/apple.fd0e15d425b10dc9b0f3678d85fc1b4f.svg",
+    "static/media/star-blue.svg": "/NgStoreBoy-React.js/static/media/star-blue.213e0d35baf8e13d8c941ccd4caadba0.svg",
+    "static/media/star.svg": "/NgStoreBoy-React.js/static/media/star.c34f0179dfc7640152dfe8f7383c649e.svg",
+    "static/media/facebook.svg": "/NgStoreBoy-React.js/static/media/facebook.908f85160723b0165b1ab0d9592eb921.svg",
+    "static/media/facebook2.svg": "/NgStoreBoy-React.js/static/media/facebook2.ba81b7d57844ec15e62bd8b7b7e18513.svg",
+    "static/media/orange-shopping-cart.svg": "/NgStoreBoy-React.js/static/media/orange-shopping-cart.7da9630ee8e3ba29c681485ce8f9dd0b.svg",
+    "static/media/shopping-cart3.svg": "/NgStoreBoy-React.js/static/media/shopping-cart3.88925d38c289df905bfa4bd77c009f35.svg",
+    "static/media/shopping-cart1.svg": "/NgStoreBoy-React.js/static/media/shopping-cart1.22edda112eee15b6921ae325d1ca2b33.svg",
+    "static/media/shopping-cart5.svg": "/NgStoreBoy-React.js/static/media/shopping-cart5.c5eba263084dcc839f6a67475cc18658.svg",
+    "static/media/shopping-cart2.svg": "/NgStoreBoy-React.js/static/media/shopping-cart2.7681c689289c0f2d9ee43c66bc5599cf.svg",
+    "static/media/shopping-cart4.svg": "/NgStoreBoy-React.js/static/media/shopping-cart4.8cca74f5d74c6bb38760dfe870ae7a07.svg",
+    "static/media/google-play.svg": "/NgStoreBoy-React.js/static/media/google-play.e96ad2930ce99ff3f1e460219cae121c.svg",
+    "index.html": "/NgStoreBoy-React.js/index.html",
+    "static/media/crown.svg": "/NgStoreBoy-React.js/static/media/crown.1c8539eed854e6c18ac47f040587d8eb.svg",
+    "static/media/small-user.svg": "/NgStoreBoy-React.js/static/media/small-user.2179d3fbe7962d78b792914556e87b31.svg",
+    "static/media/user.svg": "/NgStoreBoy-React.js/static/media/user.10587245d9d1f26798c1528e43ae3b24.svg",
+    "static/media/search-1.svg": "/NgStoreBoy-React.js/static/media/search-1.7eadea08c29e577a84bb4babbaabf06c.svg",
+    "static/media/small-search.svg": "/NgStoreBoy-React.js/static/media/small-search.0f875e8dd218b2c276180eb3b9112f7b.svg",
+    "static/media/help.svg": "/NgStoreBoy-React.js/static/media/help.b0e06f683c9a2644c65974fa0d1679c6.svg",
+    "static/media/caret-down.svg": "/NgStoreBoy-React.js/static/media/caret-down.bab5cdcab5a896cada7668b5c3a4ba6b.svg",
+    "main.dee5c431.css.map": "/NgStoreBoy-React.js/static/css/main.dee5c431.css.map",
+    "main.a0c18da5.js.map": "/NgStoreBoy-React.js/static/js/main.a0c18da5.js.map",
+    "787.a2617a75.chunk.js.map": "/NgStoreBoy-React.js/static/js/787.a2617a75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dee5c431.css",
+    "static/js/main.a0c18da5.js"
+  ]
+}
