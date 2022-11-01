@@ -1,0 +1,13 @@
+.pop-up{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+.pop-up-content{
+    width: 50%;
+    background-color: red;
+}
+
+
+

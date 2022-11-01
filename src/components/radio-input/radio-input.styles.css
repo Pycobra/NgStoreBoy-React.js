@@ -1,0 +1,23 @@
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--my-font-colors);
+}
+.checkbox label{
+  font-size:14px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.greylabel{
+  color:grey;
+}
+.blacklabel{
+  color:var(--my-font-colors);;
+}
+
+
+
+
+
+

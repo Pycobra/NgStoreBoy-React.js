@@ -1,0 +1,25 @@
+
+form.mini-search-form{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  margin:20px 0 10px 0;
+  /* display:none; */
+}
+form.mini-search-form.for-menubar{
+    display:none;
+}
+form.mini-search-form .search-field{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom:15px;
+  width:100%;
+}
+@media screen and (max-width:450px){
+  form.mini-search-form.for-menubar{
+      display:flex;
+  }
+}

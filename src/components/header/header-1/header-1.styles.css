@@ -1,0 +1,71 @@
+.header-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    background-color: white;
+    padding: 0 0;
+    color: var(--my-font-colors);
+}
+
+.header-1 .main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:85%;
+}
+.header-1 .main-box .sellpage{
+    font-family: RoadTest;
+    font-style: oblique;
+    font-weight: bold;
+    color: var(--darkgrey);
+    font-size: 18px;
+}
+.header-1 .main-box .options{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header-1 .main-box .options .option {
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #ACADA8;
+    font-weight: bold;
+}
+
+.header-1 .main-box .options .option:hover{
+    color:var(--normalorange);
+}
+.header-1 .main-box .options .option:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width:768px){
+    .header-1{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .header-1 .main-box .options .option{
+        font-size: 12px;
+    }
+}
+/* 
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    padding: 10px 7vw 5px 7vw;
+    background-color: white;
+}
+
+
+@media screen and (max-width:768px){
+    .header-1{
+       display: none;
+    }
+} */
+
+

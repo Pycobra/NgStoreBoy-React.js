@@ -1,0 +1,104 @@
+
+.General-Style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%; 
+    color: var(--my-font-colors);
+}
+.General-Style .top{
+    margin-bottom: 7px;
+    color: grey;
+}
+.General-Style h1{
+    font-size: 16px;
+    color: grey;
+}
+.General-Style form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 98%; 
+}
+.General-Style form .inner-form-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.General-Style form .inner-form-1 .rows{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: var(--border-line-color);
+    width: 100%; 
+    background-color: white;
+}
+/* .General-Style form .inner-form-1 .rows input{
+    border: var(--border-line-color);
+    border-radius: 5px;
+    height: 27px;
+    width: 35%;
+} */
+.General-Style form .inner-form-1 .rows textarea{
+    height: 100px;
+    width: 50%;
+    border: var(--border-line-color);
+    border-radius: 5px;
+}
+/* .General-Style form .inner-form-1 .rows .mid-input{
+    width: 18%;
+}
+.General-Style form .inner-form-1 .rows .small-input{
+    width: 12%;
+} */
+.General-Style form .inner-form-1 .rows:first-child{
+    border-top: var(--border-line-color);
+}
+.General-Style form .inner-form-1 .rows .first{
+    width: 25%;
+    text-align: left;
+    font-size:14px;
+    font-weight: bold;
+}
+.General-Style form .inner-form-1 .block-row .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size:12px;
+    width: 35%;
+}
+/* .General-Style form .inner-form-1 .block-row .second input{
+    width: 100%;
+} */
+/* .General-Style form .inner-form-1 .check-btn-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.General-Style form .inner-form-1 .check-btn-row .second{
+    font-size:14px;
+    font-weight: bold;
+    font-weight: lighter;
+    color: grey;
+} */
+/* .General-Style form .inner-form-1 .check-btn-row input{
+  width: auto;
+  margin-right:10px;
+} */
+.General-Style .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    border: var(--border-line-color);
+    border-radius: 5px;
+    padding: 12px;
+    background-color: white;
+}

@@ -1,15 +1,44 @@
+:root{
+  --darkblue2: #291999;
+  --lightblue: #79aec8;
+  --lightblue2: rgba(85,85,205,1);
+  --darkblue: #417690;
+  --useblue:rgb(120, 120, 200);
+
+  --normalorange: orange;
+  --lightred: rgba(255,0,0,0.8);
+  --normalwhite: white;
+  --lightwhite: rgba(255,255,255,0.8);
+  --darkgrey: #708090;
+  --lightgrey:#f3f3f3;
+  --normalblack: black;
+  --bg_alert_and_notifications: rgba(255,0,0,0.1);
+  --bg_alert_and_notifications2: rgba(255,0,0,0.5);
+  --white-against-black:#bbbbbb;
+  --footer-big-font: 13px;
+  --footer-small-font: 13px;
+  --border-line-color: 1px solid rgb(214, 212, 212);
+  --my-font-colors: #3b3a3a;
+  font-family: "Arial", serif;
+  font-size: 16px;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(
+  /*background: linear-gradient(
     to left, 
     rgba(7, 27, 82, 1) 0%,
     rgba(7, 27, 82, 1) 100%
-  );
+  ); */
 }
 
 code {

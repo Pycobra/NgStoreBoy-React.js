@@ -1,0 +1,9 @@
+#search-page{
+    background-color:var(--lightgrey);
+    width:100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: var(--my-font-colors);
+}

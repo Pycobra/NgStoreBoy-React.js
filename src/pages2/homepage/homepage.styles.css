@@ -1,0 +1,337 @@
+.homepage {
+  width: 100%;
+  /* width: 86vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--my-font-colors);
+  /* padding: 20px; */
+  background-color:var(--lightgrey);
+}
+.home-image{
+  background-image: url('../../Media/image5.PNG');
+  background-size: cover;
+  width:100%;
+  height:70vh;
+  /*filter:grayscale(25%);*/
+  margin-bottom:50px;
+  z-index:1;
+}
+.home-body{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*-------------------------------------------------------*/
+@media screen and (max-width:1300px){
+  .header .header-1 .place-1{
+      margin-left:2.9%;
+  }
+}
+@media screen and (max-width:1200px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:var(--darkgrey);
+  }
+  /* .header .header-2 .place-1 form .search-box{
+    width:300px;
+
+  }
+  .header .header-2 .place-1 form  .custom-button{
+      width:65px;
+      font-size:14px;
+  } */
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:1100px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:pink;
+  }
+  /* .header .header-2 .place-1 form  .search-box{
+      width:280px;
+  } */
+  .header .header-2 .place-2 .wrap {
+      margin:10px;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:1050px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:black;
+  }
+  /* .header .header-2 .place-1 form .search-box{
+    width:250px;
+  } */
+  .homepage{
+      top:21.1vh;
+  }
+  footer .block1{
+      flex-wrap:wrap;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:950px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:green;
+  }
+  .header .header-2 .place-1 form {
+    display:none;
+  }
+  .header .header-2 .place-2{
+    justify-content: space-between;
+  }
+  .header .header-2 .place-2 .wrap{
+      margin:5px 0px;
+  }
+  .header .header-3 .place-2 form {
+      display:flex;
+  }
+  /* .header .header-3 .place-2 form .search-box{
+      width:205px;
+  }
+  .header .header-3 .place-2 form .custom-button{
+      width:60px;
+      font-size:12.5px;
+  } */
+
+  #homepage{
+      top:28.6vh;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:900px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:var(--darkgrey);
+  }
+  /* .header-2 .place-2 .help {
+      width: 80px;
+  } */
+ .header-3 .place-1{
+      margin-left:0.6%;
+  }
+  /* #main-container .box .body-row .main-block .third-box .inner-box{
+      flex-wrap:wrap;
+  }
+  #main-container .box .body-row .main-block .third-box .block1{
+      width:100%;
+      margin-right:0;
+  }
+  #main-container .box .body-row .main-block .third-box .block2{
+      width:100%;
+  }
+  #main-container .box .body-row .main-block .third-box .block1 a .box1 .text,
+  #main-container .box .body-row .main-block .third-box .block1 a .box2 .text,
+  #main-container .box .body-row .main-block .third-box .block1 a .box3 .text,
+  #main-container .box .body-row .main-block .third-box .block2 a .box1 .text,
+  #main-container .box .body-row .main-block .third-box .block2 a .box2 .text{
+      width:100%;
+  } */
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:850px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:var(--normalorange);
+  }
+  .header-1 .place-2 ul li{
+     font-size:12px;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:800px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:yellow;
+  }
+}
+/*================================ipad================================*/
+
+@media screen and (max-width:768px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:red;
+  }
+  /* .header .header-1{
+     display: none
+  } */
+  .header .header-2{
+     top:0px;
+     left:0px;
+  }
+
+  .header .header-2 .place-2, .header .header-2 .place-1 form {
+     display:none;
+  }
+  /* .header .header-2 .place-3{
+     display:block;
+     background-color: red;
+  } 
+ .header .header-2 .logo.place-3 #menutimes{
+     display:none;
+     font-size:53px;
+  }
+
+  .header .header-2 .logo.place-3 #menubars{
+     display:block;
+     font-size:53px;
+  } */
+  .header .header-1, .header .header-3{
+     display:none;
+  }
+  .homepage{
+      top:17vh;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:600px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:rgba(0,0,0,0.5);
+  }
+  #product-container .box .innerbox-row{
+      flex-wrap:wrap;
+  }
+  #product-container .box .innerbox-row .first-block{
+      flex-grow:1;
+  }
+  #product-container .box .innerbox-row .last-block{
+      flex-grow:1;
+      margin-left:0;
+  }
+  #product-container .box .innerbox-row{
+      background-color:red;
+  }
+}
+/*=============================surface duo============================*/
+
+@media screen and (max-width:540px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:#f3f3f3;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:500px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:armygreen;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:464px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:navyblue;
+  }
+  #top-selling .box-body .card{
+      width:180px;
+  }
+  #top-selling .box-body .card .card-img img{
+      width:160px;
+  }
+}
+/*==========================iphone 6/7/8 plus=========================*/
+
+@media screen and (max-width:414px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:yellow;
+  }
+  .header .header-4{
+      display: none;
+  }
+  .homepage{
+      top:10.1vh;
+  }
+  #top-selling .box-body .card{
+      width:170px;
+  }
+  #top-selling .box-body .card .card-img img{
+      width:150px;
+  }
+  .third #slide-account ul form{
+      display:flex;
+  }
+}
+/*==============Galaxy s5, moto G4=360px, iphone 6/7/8/x==============*/
+
+@media screen and (max-width:391px /*375 is the correct dimension*/){
+  .header .header-2 .place-1 .logo-container strong {
+      color:green;
+  }
+
+  #top-selling .box-body{
+      justify-content: center;
+  }
+  #top-selling .box-body .card{
+      width:95vw;
+  }
+  #top-selling .box-body .card .card-img img{
+      width:85vw;
+  }
+  #recently-viewed .box-body,
+  #topmost1 .box-body{
+      justify-content:space-between;
+  }
+  #recently-viewed .box-body .card,
+  #topmost1 .box-body .card{
+      width:120px;
+  }
+  #recently-viewed .box-body .card-img img,
+  #topmost1 .box-body .card-img img{
+      width:105px;
+  }
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:350px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:pink;
+  }
+}
+/*==============================iphone 5==============================*/
+
+@media screen and (max-width:320px){
+  .header .header-2 .place-1 .logo-container strong {
+      color:var(--darkgrey);
+  }
+  #recently-viewed .box-body .card,
+  #topmost1 .box-body .card{
+      width:110px;
+  }
+  #recently-viewed .box-body .card-img img,
+  #topmost1 .box-body .card-img img{
+      width:95px;
+  }
+  #menutimes{
+      visibility:hidden;
+  }
+  .third #slide-account{
+      width:310px;
+  }
+  .third #slide-account ul span #menutimes2{
+      display:block;
+  }
+
+}
+/*========================kpalasa, Galaxy fold========================*/
+
+@media screen and (max-width:280px){
+}
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:230px){
+}
+
+
+
+
+
+
+
+
+

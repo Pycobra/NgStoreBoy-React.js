@@ -1,0 +1,22 @@
+
+#admin-section ul,
+#admin-section h1,
+#admin-section h2{
+    margin: 0;
+    padding: 0;
+}
+#admin-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:85%;
+    margin-bottom: 50px;
+    color: var(--my-font-colors);
+}
+#admin-section .head-place{
+    margin: 20px 0;
+    width:100%;
+}
+
+
